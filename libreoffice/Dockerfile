@@ -10,7 +10,8 @@
 #	--name libreoffice \
 #	jess/libreoffice
 #
-FROM alpine:latest
+#FROM alpine:latest
+FROM openjdk:17-alpine
 LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
 RUN apk --no-cache add \

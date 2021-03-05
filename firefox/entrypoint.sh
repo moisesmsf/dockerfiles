@@ -5,3 +5,5 @@ if [[ -e /dev/snd ]]; then
 else
 	exec firefox "$@"
 fi
+#apulse &
+#$HOME/firefox/firefox

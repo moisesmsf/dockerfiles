@@ -2,7 +2,7 @@ version: "3"
 services:
   firefox:
     image: firefox:latest
-    build: ./firefox
+    build: .
     container_name: firefox-lab
     tmpfs: /dev/shm
     devices:
